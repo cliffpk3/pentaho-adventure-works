@@ -3,7 +3,7 @@ A second Adventure Works dimensional modeling project, now using Pentaho as main
 With a focus on creating a dimensional model, the company aims to analyze sales data efficiently. The objective is to derive valuable insights from historical data using **Pentaho** and **MySQL** for the ETL process and dimensional model creation.
 
 <h2>2. Business Assumptions</h2>
-The data used for the construction of the dimensional model is publicly available on the **Microsoft Website**:
+The data used for the construction of the dimensional model is publicly available on the **Microsoft Website** and was migrated to MySQL using MySQL DB Migration Wizard:
 https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
 
 <h4>2.1 Technical Assumptions:</h4>
@@ -12,11 +12,12 @@ https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?v
 
 <h2>3. Solution Strategy</h2>
 <h4>3.1 Download data from **Microsoft Website**;</h4>
-<h4>3.2 Exploratory analysis of data and data dictionary;</h4>
-<h4>3.3 Creation of Select Queries, Dimensions, and Fact;</h4>
-<h4>3.4 Get Pentaho ready for connect with MySQL database;</h4>
-<h4>3.5 Structure of Dimensional Model.</h4>
-<h4>3.6 Creation of DDL and DML archives.</h4>
+<h4>3.2 Transform and migrate Adventure Works data to MySQL Database</h4>
+<h4>3.3 Exploratory analysis of data and data dictionary;</h4>
+<h4>3.4 Creation of Select Queries, Dimensions, and Fact;</h4>
+<h4>3.5 Get Pentaho ready for connect with MySQL database;</h4>
+<h4>3.6 Structure of Dimensional Model.</h4>
+<h4>3.7 Creation of DDL and DML archives.</h4>
 <img align="center" alt="4_2" src="https://raw.githubusercontent.com/cliffpk3/adventure-works/main/extra_files/dimensional_model.png"/>
 
 <h2>4. Business Requirements</h2>
